@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cupid-poi"
+version = "0.1.0"
+description = "CUPID: Reconstructing UV Texture Maps for Interpretable Person-of-Interest Deepfake Detection"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Giovanni Affatato" }]
+keywords = ["deepfake-detection", "face-forensics", "person-of-interest", "masked-autoencoder"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "torch>=2.8",
+    "torchvision>=0.23",
+    "torchcodec>=0.7",
+    "timm>=1.0",
+    "einops>=0.8",
+    "numpy>=2.0",
+    "scipy>=1.14",
+    "pillow>=10.0",
+    "huggingface_hub>=0.30",
+    "ninja",  # required by nvdiffrast to JIT-compile its CUDA plugin
+    "nvdiffrast @ git+https://github.com/NVlabs/nvdiffrast@v0.3.3",
+]
+
+[project.optional-dependencies]
+demo = ["matplotlib>=3.9", "yt-dlp"]
+
+[project.scripts]
+cupid = "cupid.cli:main"
+
+[project.urls]
+Repository = "https://github.com/polimi-ispl/CUPID"
+Weights = "https://huggingface.co/heyGio/CUPID"
+
+[tool.setuptools.packages.find]
+include = ["cupid*"]
+
+[tool.setuptools.package-data]
+"cupid.tddfa_v3" = ["assets/*.mat", "LICENSE"]

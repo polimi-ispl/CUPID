@@ -1,0 +1,59 @@
+{
+  "reference_clips": [
+    "ref_1.mp4",
+    "ref_2.mp4",
+    "ref_3.mp4",
+    "ref_4.mp4",
+    "ref_5.mp4",
+    "ref_6.mp4",
+    "ref_7.mp4",
+    "ref_8.mp4"
+  ],
+  "num_reference_descriptors": 120,
+  "frames_per_video": 15,
+  "resolution": "native",
+  "sampling": "equispaced",
+  "auc": 1.0,
+  "margin": 0.01131361722946167,
+  "comparison": {
+    "real": "test_real_2.mp4",
+    "fake": "test_fake_2.mp4"
+  },
+  "results": [
+    {
+      "clip": "test_real_3.mp4",
+      "label": "real",
+      "score": 0.891990065574646
+    },
+    {
+      "clip": "test_real_1.mp4",
+      "label": "real",
+      "score": 0.8563366532325745
+    },
+    {
+      "clip": "test_real_2.mp4",
+      "label": "real",
+      "score": 0.8069838285446167
+    },
+    {
+      "clip": "test_fake_3.mp4",
+      "label": "fake",
+      "score": 0.795670211315155
+    },
+    {
+      "clip": "test_fake_4.mp4",
+      "label": "fake",
+      "score": 0.7864270806312561
+    },
+    {
+      "clip": "test_fake_1.mp4",
+      "label": "fake",
+      "score": 0.7721040844917297
+    },
+    {
+      "clip": "test_fake_2.mp4",
+      "label": "fake",
+      "score": 0.7491084933280945
+    }
+  ]
+}

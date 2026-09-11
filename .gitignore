@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Reference-set files and downloaded weights
+*.pt
+weights/
+outputs/
+
+# Demo material: fetched from the original sources, never redistributed here
+demo/downloads/
+demo/clips/
+demo/results/
+
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,26 @@
+# Source videos for the CUPID demo. Lines starting with '#' are ignored.
+# prepare_clips.sh cuts each of these into the clips listed beside it.
+
+# --- Real Leonardo DiCaprio (YouTube) ---------------------------------------
+# ref_1..3   TIME: revisits his career
+https://www.youtube.com/watch?v=usqUrdA_R3I
+# ref_4..6   Oscars: Best Actor acceptance, 2016
+https://www.youtube.com/watch?v=xpyrefzvTpI
+# ref_7..8   CBS News: on the Paris Accords
+https://www.youtube.com/watch?v=IHkJzVx0Jd4
+# test_real_1  The Ellen Show: Wolf of Wall Street interview
+https://www.youtube.com/watch?v=lkUKu0NZhb4
+# test_real_2  Variety: Actors on Actors, with Jennifer Lawrence
+https://www.youtube.com/watch?v=Q_cV9ciktoQ
+# test_real_3  TNT: SAG Awards acceptance, 2016
+https://www.youtube.com/watch?v=UZh42eXTq4Y
+
+# --- Deepfaked DiCaprio (TikTok, @fake_dicaprio) ----------------------------
+# test_fake_1
+https://www.tiktok.com/@fake_dicaprio/video/7364145113347493151
+# test_fake_2
+https://www.tiktok.com/@fake_dicaprio/video/7312874924840946974
+# test_fake_3
+https://www.tiktok.com/@fake_dicaprio/video/7312146227548785951
+# test_fake_4
+https://www.tiktok.com/@fake_dicaprio/video/7310263372467997982
