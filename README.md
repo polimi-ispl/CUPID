@@ -1,5 +1,5 @@
 # CUPID: Reconstructing UV Texture Maps for Interpretable Person-of-Interest Deepfake Detection
-by [Giovanni Affatato](mailto:giovanni.affatato@polimi.it), Sara Mandelli, Edoardo Daniele Cannas, Paolo Bestagini, and Stefano Tubaro.
+by [Giovanni Affatato](https://heygio.github.io/), Sara Mandelli, Edoardo Daniele Cannas, Paolo Bestagini, and Stefano Tubaro.
 
 This repository is the official implementation of [CUPID](https://arxiv.org/abs/2606.20302).
 
